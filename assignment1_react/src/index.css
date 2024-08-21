@@ -68,8 +68,34 @@ button:focus-visible {
   }
 }
 
-table,td,th{
+table,th,td{
   border: 1px solid;
   text-align: center;
+  border-spacing: 0px;
 }
 
+td,th{
+  padding: 10px;
+}
+
+.empty>td{
+  border: none;
+  font-weight: 900;
+}
+.flex{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+@media (max-width: 768px) {
+  .flex {
+      flex-direction: column;
+      align-items: center;
+      /* gap: 10px; */
+  }
+
+  table{
+    margin-bottom: 20px;
+  }
+}
