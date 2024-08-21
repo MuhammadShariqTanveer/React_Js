@@ -44,10 +44,12 @@ const products2 = [
   // Add more products as needed
 ];
 
+
 const ProductList = () => {
   return (
     <div>
       <h1>ABC BAKERY</h1>
+      <div className='flex'>
         <h3>BISCUITS</h3>
         <table>
           <thead>
@@ -89,6 +91,7 @@ const ProductList = () => {
         ))}
         </tbody>
          </table>
+         </div>
     </div>
   );
 };
