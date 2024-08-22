@@ -1,3 +1,3 @@
 # React_Js
-Assignment 01: https://reactassignment01.surge.sh/
+Assignment 01: assign1shariq_react.surge.sh
  
