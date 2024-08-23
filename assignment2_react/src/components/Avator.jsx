@@ -3,7 +3,7 @@
  function Avator({img,onClick}) {
   return (
     <div className="my-6">
-      <img className="w-30 h-30 cursor-pointer " src={img} alt="Avatar" onClick={onClick}  />
+      <img className="w-32 h-32 cursor-pointer " src={img} alt="Avatar" onClick={onClick}  />
       </div>
   );
 }
