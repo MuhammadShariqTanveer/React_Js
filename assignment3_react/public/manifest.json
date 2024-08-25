@@ -1,0 +1,23 @@
+{
+    "short_name": "TodoApp",
+    "name": "Shariq TodoApp",
+    "icons": [
+    
+      {
+        "src": "react.jpeg",
+        "type": "react.svg",
+        "sizes": "192x192"
+      },
+      {
+        "src": "react.jpeg",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+      
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+  }
+  
